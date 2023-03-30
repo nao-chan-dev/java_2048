@@ -85,7 +85,7 @@ public class JFrameGame extends JFrame implements KeyListener {
         }
 
         if(e.getKeyCode() == KeyEvent.VK_Q) {
-            dispose();
+            System.exit(0);
         }
     }
 
